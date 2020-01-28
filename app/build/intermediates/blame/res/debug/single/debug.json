@@ -924,6 +924,10 @@
         "source": "/Users/poornajayasinghe/.gradle/caches/transforms-2/files-2.1/93bc303e0edf41378a70a682ebb74605/appcompat-1.1.0/res/color/abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/build/intermediates/res/merged/debug/layout_fragment_city_item.xml.flat",
+        "source": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/src/main/res/layout/fragment_city_item.xml"
+    },
+    {
         "merged": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_track_material.xml.flat",
         "source": "/Users/poornajayasinghe/.gradle/caches/transforms-2/files-2.1/93bc303e0edf41378a70a682ebb74605/appcompat-1.1.0/res/drawable/abc_seekbar_track_material.xml"
     },
@@ -1030,6 +1034,10 @@
     {
         "merged": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/build/intermediates/res/merged/debug/layout_fragment_city_list.xml.flat",
+        "source": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/src/main/res/layout/fragment_city_list.xml"
     },
     {
         "merged": "/Users/poornajayasinghe/Desktop/GoogleMapsWithFragments/app/build/intermediates/res/merged/debug/layout_support_simple_spinner_dropdown_item.xml.flat",

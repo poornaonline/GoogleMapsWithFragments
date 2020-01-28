@@ -1,6 +1,7 @@
 package com.poorna.googlemapswithfragments
 
 import android.content.Context
+import android.content.pm.PackageManager
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -21,10 +22,7 @@ class GoogleMapsFragment : Fragment() {
         super.onCreate(savedInstanceState)
     }
 
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
+    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
 
         val view = inflater.inflate(R.layout.fragment_google_maps, container, false)
         mapView = view.findViewById(R.id.mapView)
@@ -40,6 +38,7 @@ class GoogleMapsFragment : Fragment() {
 
         mapView.getMapAsync(OnMapReadyCallback { map ->
             googleMap = map
+
             val melbourne = LatLng(-37.8136, 144.9631)
             googleMap.addMarker(MarkerOptions().position(melbourne).title("Melbourne").snippet("Australia"))
 
